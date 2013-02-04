@@ -34,7 +34,7 @@ If you want to add websites to the one I chose, just respect the same presentati
 Let's take the case of bonjourmadame.fr (well known, that's for a reason I guess), the website is like this (the image zone) :
 ```html
 <div class="photo">
-	<div class="permalink"><a href="http://bonjourmarion.fr/post/41934955472">+</a></div>
+	<div class="permalink"><a href="http://bonjourmadame.fr/post/41934955472">+</a></div>
 	<img src="http://25.media.tumblr.com/a2899372850582bc906c855673cbf8f0/tumblr_mh707plpKC1s4rgpyo1_500.jpg" alt="">
 </div>
 ```
@@ -47,7 +47,7 @@ So, actually, what is important is
 What we see is that the parent's div class-name is "photo" and there's the img tag in this div.
 So, when you're making the config file "heySexyLady" it should looks like :
 ```txt
-http://bonjourmarion.fr|Your title, sentence, joke or something|class|photo
+http://bonjourmadame.fr|Your title, sentence, joke or something|class|photo
 ```
 As you see, it's divided into parts separated by a pipe (|).
 The first part is the **website**, be sure it's a valid url or the program won't work.
@@ -86,7 +86,7 @@ Who made this?
 ==============
 --------------
 
-* [Me](http://en.quentin-dommerc.com) (web-CV)
+* [Me](http://quentin-dommerc.com) (web-CV)
 
 * [Me](mailto:dommer.q@gmail.com) (email)
 
